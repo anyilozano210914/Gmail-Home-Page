@@ -1,0 +1,49 @@
+@import  './components/variables';
+@import './components/header';
+@import './components/sidebar';
+@import './components/home';
+@import './components/sidebar_right';
+
+body {
+    background-image: url('https://www.wallpapertip.com/wmimgs/12-127220_night-time-high-resolution-sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .contain-routes {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.ml-1 {
+    margin-left: 0.25rem;
+}
+
+.mr-3 {
+    margin-right: 0.75rem;
+}
+
+.mr-4 {
+    margin-right: 3rem;
+}
